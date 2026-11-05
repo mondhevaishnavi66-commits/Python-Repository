@@ -8,15 +8,10 @@ Tuples are created using round brackets ().
 
 characteristics of tuples
 1. Ordered – Elements maintain their original order.
-
 2. Immutable – Elements cannot be modified.
-
 3. Allow duplicates – Duplicate values are allowed.
-
 4. Indexed – Indexing starts from 0.
-
 5. Different data types – Can store integers, strings, floats, etc.
-
 6. Allow multiple values – Can store many elements in one variable.
 
 ```
