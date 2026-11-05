@@ -7,17 +7,18 @@ A tuple is similar to a list, but the main difference is that a tuple is immutab
 Tuples are created using round brackets ().
 
 characteristics of tuples
-Ordered – Elements maintain their original order.
+1. Ordered – Elements maintain their original order.
 
-Immutable – Elements cannot be modified.
+2. Immutable – Elements cannot be modified.
 
-Allow duplicates – Duplicate values are allowed.
+3. Allow duplicates – Duplicate values are allowed.
 
-Indexed – Indexing starts from 0.
+4. Indexed – Indexing starts from 0.
 
-Different data types – Can store integers, strings, floats, etc.
+5. Different data types – Can store integers, strings, floats, etc.
 
-Allow multiple values – Can store many elements in one variable.
+6. Allow multiple values – Can store many elements in one variable.
+
 ```
 Tuples = (1,2,5,4,7,8,9,4,3,6,6,3,4,6,7,8,9)
 print(Tuples)
