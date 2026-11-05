@@ -1,5 +1,11 @@
 # List Functions
 ---
+A List in Python is a collection of multiple elements stored in a single variable.
+
+Lists are created using square brackets [].
+
+The most important feature of a list is that it is mutable, meaning we can add, remove, or modify elements after creating it.
+---
 #### 1. print() displays all elements in the list.
 ```
 list = ["A","B","C","D","D","D","D","E","A"]
