@@ -10,12 +10,16 @@ Tuples = (1,2,5,4,7,8,9,4,3,6,6,3,4,6,7,8,9)
 print(Tuples)
 ```
 ---
-#### 2. count() The count() method is used to count how many times a particular element appears in a tuple.
+#### 1. count() The count() method is used to count how many times a particular element appears in a tuple.
 ```
-print(Tuples.count(6))  # output should be 3 bcz 6 number appears 3 times
+print(Tuples.count(6))  # output The number 6 appears 3 times.
 ```
 ```
 (1, 2, 5, 4, 7, 8, 9, 4, 3, 6, 6, 3, 4, 6, 7, 8, 9)
                            ↑  ↑        ↑
                            6  6        6
+```
+#### 2. index() The index() method returns the index position of the first occurrence of a particular element.
+```
+print(Tuples.index(9))
 ```
