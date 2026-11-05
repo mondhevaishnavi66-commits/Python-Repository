@@ -6,6 +6,19 @@ Lists are created using square brackets [].
 
 The most important feature of a list is that it is mutable, meaning we can add, remove, or modify elements after creating it.
 
+Characteristics of Lists
+1. Ordered: Elements maintain their insertion order.
+
+2. Mutable: We can change elements after creation.
+
+3. Allow duplicates: Same values can appear multiple times.
+
+4. Indexed: Indexing starts from 0.
+
+5. Different data types: Can store integers, strings, floats, etc.
+
+6. Dynamic: We can increase or decrease the size of a list.
+
 #### 1. print() displays all elements in the list.
 ```
 list = ["A","B","C","D","D","D","D","E","A"]
