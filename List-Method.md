@@ -1,4 +1,4 @@
-### list method with functions
+### List method with functions
 ---
 #### 1. print(list) displays all elements in the list.
 ```
