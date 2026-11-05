@@ -44,7 +44,9 @@ list.remove("F")
 #### 10. pop() Removes the last element from the list.
 ```
 list.pop()
+```
 or
+```
 # Removes the last element and also prints the removed value.
 print(list.pop()) 
 ```
@@ -54,4 +56,10 @@ list.clear()
 ```
 #### 12. copy() Creates a copy of the list.
 ```
+a = [10, 20, 30, 40]
+
+b = a.copy()
+
+print("Original list:", a)
+print("Copied list:", b)
 ```
