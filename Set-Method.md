@@ -56,3 +56,7 @@ sets.discard('mondhe')
 a= sets.pop()
 print(a)
 ```
+AND (A list's pop() removes the last element by default.)
+```
+print(sets.pop())
+```
