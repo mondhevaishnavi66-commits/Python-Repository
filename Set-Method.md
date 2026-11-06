@@ -51,7 +51,7 @@ sets.remove("mondhe")
 sets.discard('mondhe')
 ```
 #### 5. pop() Removes and returns an arbitrary element from the set. 
-( Python takes out one element from the box, but it doesn't promise which one ).
+( Python takes out one element from the box, but it doesn't promise which one will that ).
 ```
 a= sets.pop()
 print(a)
@@ -60,3 +60,7 @@ AND (A list's pop() removes the last element by default.)
 ```
 print(sets.pop())
 ```
+#### 6. clear() Removes all elements from a set.
+```
+sets.clear()
+````
