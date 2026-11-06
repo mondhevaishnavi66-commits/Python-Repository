@@ -63,4 +63,19 @@ print(sets.pop())
 #### 6. clear() Removes all elements from a set.
 ```
 sets.clear()
-````
+```
+#### 7. copy() Creates a shallow copy of a set.
+```
+sets = {"vaishnavi","mondhe","viva","viva","viva",3,2}
+b = sets.copy()
+print(b)
+```
+---
+## A. Mathematical Set Operations
+These are very important Python set operations.
+Consider two sets:
+```
+A = {10, 20, 30, 40}
+B = {30, 40, 50, 60}
+```
+####  Union (union()) Union combines all unique elements from both sets.
