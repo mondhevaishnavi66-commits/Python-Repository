@@ -24,3 +24,35 @@ output
 ```
 {10, 20, 30, 40}
 ```
+---
+```
+sets = {"vaishnavi",1,2,3,3,3,4,3.6,"mondhe","viva","viva","viva",3,2}
+print(sets)
+```
+output
+```
+{1, 2, 3, 4, 'vaishnavi', 'mondhe', 3.6, 'viva'}
+```
+---
+#### 1. add() add a single elements to the set, If the element is already present, so set will not add it again.
+```
+sets.add("AK")
+```
+#### 2. update() Adds multiple elements from another iterable.
+```
+sets.update([1,2,"balk",4])
+```
+#### 3. remove() Removes a specified element, If the element does not exist, it raises a KeyError.
+```
+sets.remove("mondhe")
+```
+#### 4. discard() Removes a specified element, If the element does not exist, it does not raise an error.
+```
+sets.discard('mondhe')
+```
+#### 5. pop() Removes and returns an arbitrary element from the set. 
+( Python takes out one element from the box, but it doesn't promise which one ).
+```
+a= sets.pop()
+print(a)
+```
