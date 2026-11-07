@@ -1,4 +1,4 @@
-## For-loop
+## For loop
 
 ```
 for i in "vaishnavi":
