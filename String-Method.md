@@ -250,15 +250,15 @@ My name is Vaishnavi. I am learning Python. I live in Pune.
 ```
 #### 18. index() - Returns index of substring, error if not found. 
 
-Example: "vaishnavi".index('i') → 2 
+#### Example: "vaishnavi".index('i') → 2 
 ---
 #### 19. rindex() - Returns last index, error if not found   
 ---
 #### 20. isalnum() -  Checks if string has only letters & numbers .  
-Example : print('vai45hna'.isalnum())  output - true ,  print('v@i45hna'.isalnum())  output - false
+#### Example : print('vai45hna'.isalnum())  output - true ,  print('v@i45hna'.isalnum())  output - false
 ---
 #### 21. isalpha() - Checks if string has only letters (only accept character/string . not accept number or any other sign). 
-Example :  print('vai'.isalpha()) output - true 
+#### Example :  print('vai'.isalpha()) output - true 
 ---
 #### 22. isascii() - Checks if all characters are ASCII 
 ---
@@ -275,4 +275,45 @@ Example :  print('vai'.isalpha()) output - true
 #### 28. isprintable() -  Checks if all characters are printable                        
 ---
 #### 30. isspace() -  Returns True if string contains only whitespace.
+---
+#### 31. istitle() - Checks if string follows title case (Each Word Starts Capital) 
+#### Example -  print('Vai'.istitle()) output - true , print('vai'.istitle()) output - false 
+---
+#### 32. join() - Joins elements using string as separator. join() only works with STRINGS 
+#### Example - print(','.join(['C','D'])) output - C,D
+---
+#### 33. ljust(width,optinal) - Adding string or specific sign to the left side  
+#### Example - A = 'HI'.ljust(5,'*') print((A))  output - HI***
+---
+#### 34. rjust() - Adding string or specific sign to the right side   
+---
+#### 35. rstrip/lstrip() -  Removes left/right-side spaces 
+#### Example - a= 'vaishnavi   ' print(len(a.rstrip())) output - 9
+---
+#### 36. maketrans() - Creates mapping table for translate() 
+#### Example - a = 'abc123' table= str.maketrans('abc','XYZ') print(a.translate(table)) output - XYZ123
+---
+#### 37. partition() -  Splits string into 3 parts (before, sep, after)
+---
+#### 38. rpartition() - Splits string from right side into 3 parts
+---
+#### 39. rsplit() - Splits string from right side
+---
+#### 40. split() - Splits string into list . 
+#### Example: "a b c".split() → ['a','b','c']
+---
+#### 41. splitlines() - Splits string at line breaks 
+#### Example - "a\nb".splitlines() → ['a','b']                                   
+---
+#### 42. swapcase() - Swaps uppercase ↔ lowercase (make lower to upper and upper to lower)
+---
+#### 43. translate() - Replaces characters using mapping table. 
+#### Example - print('vaishnavi '.translate(str.maketrans('a','@')))  output - v@ishn@vi 
+---
+#### 44. zfill() - Pads string with leading zeros 
+#### Example: "123".zfill(5) → "00123"
+---
+#### 45 . count(optional) ,removeprefix, removesuffix
+
+
 
