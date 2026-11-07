@@ -197,7 +197,7 @@ name = "Vaishnavi"
 surname = "Mondhe"
 print("My name is {} and my surname is {}".format(name, surname))
 
-output = My name is Vaishnavi and my surname is Mondhe
+# output = My name is Vaishnavi and my surname is Mondhe
 ```
 Example 3: Inserting age and name
 ```
@@ -227,13 +227,13 @@ format_map() automatically inserts the corresponding values.
 data = {'name': 'Vaishnavi', 'age': 27}
 print("My name is {name} and my age is {age}".format_map(data))
 
-output = My name is Vaishnavi and my age is 27
+# output = My name is Vaishnavi and my age is 27
 ```
 You don't always need to create a separate dictionary variable.
 ```
 print("My name is {name} and my age is {age}".format_map({'name': 'Vaishnavi', 'age': 27}))
 
-output = My name is Vaishnavi and my age is 27
+# output = My name is Vaishnavi and my age is 27
 ```
 ```
 student = {
