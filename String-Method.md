@@ -248,4 +248,18 @@ output
 ```
 My name is Vaishnavi. I am learning Python. I live in Pune.
 ```
+#### 18. index() - Returns index of substring, error if not found. 
+Example: "vaishnavi".index('i') → 2 
+
+#### 19. rindex() - Returns last index, error if not found   
+
+#### 20. isalnum() -  Checks if string has only letters & numbers .  
+Example : print('vai45hna'.isalnum())  output - true ,  print('v@i45hna'.isalnum())  output - false
+
+#### 21. isalpha() - Checks if string has only letters (only accept character/string . not accept number or any other sign). 
+Example :  print('vai'.isalpha()) output - true 
+
+#### 22. isascii() - Checks if all characters are ASCII 
+
+#### 23. isdigit() - Checks if string has only digits (accept only numbers , not character )
 
