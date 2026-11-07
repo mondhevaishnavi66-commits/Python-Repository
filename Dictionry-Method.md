@@ -78,3 +78,57 @@ output
 ```
 {'name': 'vaishnavi'}
 ```
+#### 4. get() – Gets the value of a key (Return the value of specified key ).
+```
+a = {"name": "Vaishnavi", "age": 21}
+print(a.get("name"))   # output = Vaishnavi
+```
+#### 5. items() - Returns key-value pairs.
+```
+a = {"name": "Vaishnavi", "age": 21}
+print(a.items())
+```
+#### how to update the value of key.
+```
+student = {"name": "Vaishnavi", "age": 21}
+student["name"] = "vivaa"
+print(student)
+```
+#### 6. keys() – Returns all the available keys in the dictionary.
+```
+a = {"name": "Vaishnavi", "age": 21}
+print(a.keys())
+```
+#### 7. values() – Returns all the available values in the dictionary.
+```
+a = {"name": "Vaishnavi", "age": 21}
+print(a.values())
+```
+#### 8. pop() – Removes specified key.
+```
+a = {"name": "Vaishnavi", "age": 21}
+a.pop("age")
+print(a)
+or
+print(a.pop("name"))
+```
+#### 9. popitem() – Removes last inserted pair.
+```
+a = {"name": "Vaishnavi", "age": 21}
+a.popitem()
+print(a)
+```
+#### 10. setdefault() – Returns value or inserts a new key
+```
+# inserting new value
+
+a = {"name": "Vaishnavi"}
+a.setdefault("age", 21)
+print(a) 
+```
+```
+# return or display then key value
+
+a = {"name": "Vaishnavi","age":24}
+print(a.setdefault("name"))
+```
