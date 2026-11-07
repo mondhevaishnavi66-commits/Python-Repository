@@ -176,3 +176,50 @@ The letter i appears twice:
 2. Last i → index 8
 
 rfind() returns 8 because it finds the last occurrence.
+```
+a = "python"
+print(a.rfind("z"))    # output = -1
+```
+#### Example 4: Using start position
+```
+a = "banana"
+print(a.rfind("a", 0, 4))       # output = 3
+```
+#### 16. format() - allows you to insert values such as names, ages, numbers, and other variables into a string using {} placeholders.In simple words, {} is an empty space where Python inserts a value.
+sysntax = "string {}".format(value)
+```
+name = "Vaishnavi"
+print("My name is {}".format(name))    # output = My name is Vaishnavi
+```
+Example 2: Inserting multiple values
+```
+name = "Vaishnavi"
+surname = "Mondhe"
+print("My name is {} and my surname is {}".format(name, surname))
+
+output = My name is Vaishnavi and my surname is Mondhe
+```
+Example 3: Inserting age and name
+```
+print("My name is {} and my age is {}".format("Vaishnavi", 27))
+```
+```
+print("My name is {1} and my age is {0}".format(27, "Vaishnavi"))  # output = My name is Vaishnavi and my age is 27
+
+or
+
+name = "Vaishnavi"
+age = 27
+
+print("My name is {0} and my age is {1}".format(name, age))  # output = My name is Vaishnavi and my age is 27
+```
+#### 17. format_map()
+Meaning: The format_map() method takes values from a dictionary and inserts them into the corresponding placeholders in a string.
+
+In simple words:
+
+We create a dictionary containing keys and values.
+
+We use dictionary keys inside {}.
+
+format_map() automatically inserts the corresponding values.
