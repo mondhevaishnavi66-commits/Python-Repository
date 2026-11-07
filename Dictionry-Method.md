@@ -6,7 +6,7 @@ Key: Used to identify the data.
 Value: The actual data stored.
 In simple words, a dictionary stores information using a key and its value.
 
-2. Features of Dictionary
+##### Features of Dictionary
 
 1. Stores data in key-value pairs.
 2.Keys must be unique.
@@ -14,3 +14,4 @@ In simple words, a dictionary stores information using a key and its value.
 4. Dictionary is mutable (we can add, update and delete elements).
 5. Dictionary maintains insertion order.
 6. Keys must be immutable types, such as strings, numbers or suitable tuples.
+
