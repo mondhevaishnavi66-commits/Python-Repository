@@ -1,4 +1,4 @@
-Dictionary Function
+# Dictionary Function
 ---
 A Dictionary in Python is a collection that stores data in the form of key-value pairs.
 
