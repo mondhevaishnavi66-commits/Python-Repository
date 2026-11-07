@@ -2,7 +2,7 @@
 ---
 A Dictionary in Python is a collection that stores data in the form of key-value pairs.
 
-Key: Used to identify the data.
+<u>Key</u>: Used to identify the data.
 Value: The actual data stored.
 In simple words, a dictionary stores information using a key and its value.
 
