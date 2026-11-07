@@ -49,6 +49,7 @@ output
 ```
 {'name': None, 'age': None, 'city': None}
 ```
+----
 ```
 keys = ("name", "age", "city")
 student = dict.fromkeys(keys, 100)
@@ -58,6 +59,7 @@ output
 ```
 {'name': 100, 'age': 100, 'city': 100}
 ```
+---
 ```
 x = dict.fromkeys([1, 2, 3], "Python")
 print(x)
@@ -66,3 +68,4 @@ output
 ```
 {1: 'Python', 2: 'Python', 3: 'Python'}
 ```
+---
