@@ -79,11 +79,11 @@ print(a.replace("World", "Python"))   # Output: Hello Python
 #### 6. Returns the position of a given substring.
 ```
 a = "Hello Python"
-print(a.find("Python"))
+print(a.find("Python"))     # output = 6
 
 or
 
 a = "Hello Python"
-print(a.find("y"))
+print(a.find("h"))        # output = 9
 ```
 
