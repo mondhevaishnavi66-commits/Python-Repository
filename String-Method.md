@@ -172,7 +172,7 @@ Explanation:
 
 The letter i appears twice:
 
-First i → index 2
-Last i → index 8
+1. First i → index 2
+2. Last i → index 8
 
 rfind() returns 8 because it finds the last occurrence.
