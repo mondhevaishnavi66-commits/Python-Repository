@@ -249,6 +249,7 @@ output
 My name is Vaishnavi. I am learning Python. I live in Pune.
 ```
 #### 18. index() - Returns index of substring, error if not found. 
+
 Example: "vaishnavi".index('i') → 2 
 ---
 #### 19. rindex() - Returns last index, error if not found   
