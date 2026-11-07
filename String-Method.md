@@ -80,4 +80,10 @@ print(a.replace("World", "Python"))   # Output: Hello Python
 ```
 a = "Hello Python"
 print(a.find("Python"))
+
+or
+
+a = "Hello Python"
+print(a.find("y"))
 ```
+
