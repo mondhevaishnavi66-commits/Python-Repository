@@ -6,3 +6,7 @@ month = 2
 
 print(calendar.month(yy, month))
 ```
+```
+import calendar
+print(calendar.calendar(2020))
+```
