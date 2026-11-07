@@ -69,3 +69,12 @@ output
 {1: 'Python', 2: 'Python', 3: 'Python'}
 ```
 ---
+```
+keys = ("name", "age", "city")
+student = dict.fromkeys(("name",), "vaishnavi",)
+print(student)
+```
+output 
+```
+{'name': 'vaishnavi'}
+```
