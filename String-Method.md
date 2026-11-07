@@ -1,4 +1,4 @@
-String function
+# String function
 ---
 A string in Python is a collection or sequence of characters enclosed within single quotes (' '), double quotes (" "), or triple quotes (''' ''').
 Strings are used to store text, words, names, numbers, and sentences.
