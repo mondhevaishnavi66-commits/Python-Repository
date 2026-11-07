@@ -314,6 +314,37 @@ My name is Vaishnavi. I am learning Python. I live in Pune.
 #### Example: "123".zfill(5) → "00123"
 ---
 #### 45 . count(optional) ,removeprefix, removesuffix
+---
+## f-string (Formatted String)
+### f-string allows us to insert variables and expressions directly inside a string using {}.
+```
+name = "Vaishnavi"
+print(f"My name is {name}")
 
+# output = My name is Vaishnavi
+```
+```
+name = "Vaishnavi"
+surname = "Mondhe"
+age = 27
 
+print(f"My name is {name} {surname} and my age is {age}")
 
+# output = My name is Vaishnavi Mondhe and my age is 27
+```
+```
+a = 10
+b = 20
+
+print(f"Addition is {a + b}")
+print(f"Multiplication is {a * b}")
+
+# output = Addition is 30
+Multiplication is 200
+```
+```
+name = "vaishnavi"
+print(f"My name is {name.upper()}")
+
+# output = My name is VAISHNAVI
+```
