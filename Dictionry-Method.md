@@ -132,3 +132,17 @@ print(a)
 a = {"name": "Vaishnavi","age":24}
 print(a.setdefault("name"))
 ```
+#### 11. update() – Adds or updates elements
+```
+# Adding element
+
+a = {"name": "Vaishnavi", "age": 21}
+a.update({"city": "Pune"})
+print(a)
+
+# update the value of existing key.
+
+a = {"name": "Vaishnavi", "age": 21}
+a.update({"name": "vivaa"})
+print(a)
+```
