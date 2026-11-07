@@ -223,3 +223,29 @@ We create a dictionary containing keys and values.
 We use dictionary keys inside {}.
 
 format_map() automatically inserts the corresponding values.
+```
+data = {'name': 'Vaishnavi', 'age': 27}
+print("My name is {name} and my age is {age}".format_map(data))
+
+output = My name is Vaishnavi and my age is 27
+```
+You don't always need to create a separate dictionary variable.
+```
+print("My name is {name} and my age is {age}".format_map({'name': 'Vaishnavi', 'age': 27}))
+
+output = My name is Vaishnavi and my age is 27
+```
+```
+student = {
+    'name': 'Vaishnavi',
+    'course': 'Python',
+    'city': 'Pune'
+}
+
+print("My name is {name}. I am learning {course}. I live in {city}.".format_map(student))
+```
+output
+```
+My name is Vaishnavi. I am learning Python. I live in Pune.
+```
+
