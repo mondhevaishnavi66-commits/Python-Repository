@@ -34,7 +34,7 @@ student = {"name": "Vaishnavi", "age": 21}
 student.clear()
 print(student)
 ```
-#### 2. copy() is a Python dictionary method that creates a shallow copy of an existing dictionary.
+#### 2. copy() creates a shallow copy of an existing dictionary.
 It creates a new dictionary with the same key-value pairs as the original dictionary.
 ```
 new_student = student.copy()
