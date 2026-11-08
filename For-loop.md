@@ -84,21 +84,8 @@ for i in range(1, 11):
 or
 
 for i in range(1, 11):
-    print(f"2 X {i} = {i*2}")
+    print(f"9 X {i} = {i*9}")
 ```
-```
-for no in [1,2,3,4,5]:
-    print(no)
-```
-output
-```
-1
-2
-3
-4
-5
-```
-
 output
 ```
 9 X 1 = 9
@@ -111,4 +98,16 @@ output
 9 X 8 = 72
 9 X 9 = 81
 9 X 10 = 90
+```
+```
+for no in [1,2,3,4,5]:
+    print(no)
+```
+output
+```
+1
+2
+3
+4
+5
 ```
