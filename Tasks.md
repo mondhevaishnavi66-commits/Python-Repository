@@ -37,8 +37,8 @@ student = {"name":"vaishnavi",
           "city":"pune",
           "dept_no":20}
 
-for i in student:
-    print(i)
+for key in student:
+    print(key)
 
 ```
 output
@@ -58,3 +58,14 @@ name vaishnavi
 city pune
 dept_no 20
 ```
+---
+## Task-4
+#### Write a Python program to print the table of a number entered by the user.
+```
+no = int(input("Enter a number ="))
+i = 1
+while i <= 10:
+    print(i*no)
+    i += 1
+```
+##### if i enter a no, it will print the table of that no, like if i enter 9 no, it will print the table of 9.
