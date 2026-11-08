@@ -77,6 +77,7 @@ output
 14
 15
 ```
+---
 ```
 for i in range(1, 11):
     print("9 X", i, "=", i*9)
@@ -99,6 +100,7 @@ output
 9 X 9 = 81
 9 X 10 = 90
 ```
+---
 ```
 for no in [1,2,3,4,5]:
     print(no)
