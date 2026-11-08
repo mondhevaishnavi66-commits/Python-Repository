@@ -11,6 +11,7 @@ print(calendar.month(yy, month))
 import calendar
 print(calendar.calendar(2020))
 ```
+---
 ## TASK-2.
 ```
 a = int(input("enter 1st no = "))
@@ -27,4 +28,32 @@ if b == "//":
     print("The Ans is = ", a//c )
 else:
     print("invalid operator")
+```
+---
+## Task-3
+```
+student = {"name":"vaishnavi",
+          "city":"pune",
+          "dept_no":20}
+
+for i in student:
+    print(i)
+
+```
+output
+```
+name
+city
+dept_no
+```
+or
+```
+for key,value in student.items():
+    print(key,value)
+```
+output
+```
+name vaishnavi
+city pune
+dept_no 20
 ```
