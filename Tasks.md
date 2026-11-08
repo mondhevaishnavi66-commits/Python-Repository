@@ -7,6 +7,7 @@ month = 2
 
 print(calendar.month(yy, month))
 ```
+or
 ```
 import calendar
 print(calendar.calendar(2020))
