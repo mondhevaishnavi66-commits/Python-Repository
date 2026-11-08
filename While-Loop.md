@@ -76,3 +76,24 @@ output
 2
 1
 ```
+---
+## 2. Reverse Multiplication table using while loop.
+```
+i = 10
+while i>=1:
+    print(i*5)
+    i = i - 1
+```
+output
+```
+50
+45
+40
+35
+30
+25
+20
+15
+10
+5
+```
